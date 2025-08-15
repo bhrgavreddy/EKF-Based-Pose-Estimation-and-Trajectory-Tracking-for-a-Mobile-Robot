@@ -133,7 +133,7 @@ predicted_angle = 0.0
 
 
 
-desktop_path = os.path.expanduser("/home/jatin/Desktop/log/logdata/")
+desktop_path = os.path.expanduser("Desktop/log/logdata/")
 os.makedirs(desktop_path, exist_ok=True)  # Create the log folder if it doesn't exist
 def init_csv_log():
     """Initialize the CSV log with headers."""
